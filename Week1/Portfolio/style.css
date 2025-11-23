@@ -1,0 +1,147 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: beige;
+}
+#navtool {
+    background-color: darkslategray;
+    height: 80px;
+    padding: 15px;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100%;
+}
+#navbar h1 {
+    color: tan;
+    font-size: 24px;
+}
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+#navbar a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+#navbar a:hover {
+    background-color: dimgray;
+    color: tan;
+}
+.name{
+	text-align: center;
+	font-size: 64px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: darkslategray;
+	margin: 10px;
+	line-height: 1.5;
+}
+.main_div{
+	color: gray;
+	font-family: "Montserrat", sans-serif;
+	text-align: justify;
+}
+.head{
+	color: darkslategray;
+	margin: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 16px 0;
+}
+.line{
+	width: 200px;
+	margin-bottom: 10px;
+	border: none;
+	height: 2px;
+	background: tan;
+	margin-left: 0;
+}
+#me{
+	display: block;
+	margin: 10px auto;
+	border-radius: 10px;
+	width: 250px;
+}
+.sec{
+	margin-bottom: 20px;
+	padding: 16px;
+	line-height: 1.6;
+}
+#contact{
+	text-align: center;
+}
+textarea{
+	height: 150px;
+}
+.label{
+	font-size: 20px;
+	color: darkslategray;
+}
+.input{
+	width: 500px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	border: 2px solid tan;
+	color: darkslategray;
+}
+button{
+	padding: 8px 16px;
+	margin-top: 10px;
+	border-radius: 15px;
+	background-color: tan;
+	border: none;
+	font-weight: bold;
+	color: darkslategray;
+}
+button:hover{
+	cursor: pointer;
+	background-color: peru;
+}
+.project_icon {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, tan 0%, wheat 100%);
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkslategray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.project_icon1 {
+  width: 250px;
+  height: 140px;
+  background: linear-gradient(135deg, tan 0%, wheat 100%);
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkslategray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.projects{
+	display: flex;
+	justify-content: center;
+}
+.project_title{
+	text-align: center;
+}
